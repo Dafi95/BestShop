@@ -78,7 +78,7 @@
 .opening__description {
     text-align: center;
     font: normal normal normal 16px/22px Open Sans;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #000000;
     opacity: 1;
     padding-bottom: 38px;
@@ -116,6 +116,22 @@
     padding-bottom: 100px;
 }
 
+.statistic__number {
+    text-align: center;
+    font: normal normal 800 20px/24px Raleway;
+    letter-spacing: 6px;
+    color: #000000;
+    opacity: 1;
+}
+
+.statistic__single {
+    text-align: center;
+    font: normal normal normal 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+
 .statistic__container {
     display: flex;
     justify-content: space-between;
@@ -123,6 +139,80 @@
 }
 
 .statistic__circle {
-    border: 2px solid red;
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
 
 }
+
+.statistic__img {
+    position: absolute;
+}
+
+.statistic__single:nth-child(1) .statistic__circle {
+    background-color: var(--color-redish);
+}
+.statistic__single:nth-child(1) .statistic__img {
+    top: 0;
+    left: 45%;
+}
+
+.statistic__single:nth-child(2) .statistic__circle {
+    background-color: var(--color-primary);
+}
+
+.statistic__single:nth-child(2) .statistic__img {
+    top: 14px;
+    left: 47%;
+}
+
+.statistic__single:nth-child(3) .statistic__circle {
+    background-color: var(--color-green);
+}
+.statistic__single:nth-child(3) .statistic__img {
+    top: 6px;
+    left: 50%;
+}
+
+.benefits {
+    padding-top: 196px;
+    justify-content: space-between;
+    border: 2px solid green;
+}
+
+.benefits__box {
+    border: 1px solid red;
+}
+
+.benefits__box:nth-child(1) {
+
+}
+
+.benefits__box:nth-child(2) {
+
+}
+.benefits__box:nth-child(3) {
+
+}
+
+.benefits__image:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid blue;
+}
+
+.benefits__title {
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
+.benefits__text {
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
