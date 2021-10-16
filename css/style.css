@@ -1,0 +1,128 @@
+:root {
+    --button-radius: 35px;
+    --color-primary: #08A6E4;
+    --color-redish: #FB3B64;
+    --color-green: #55DFB4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    text-align: left;
+    font: normal normal 300 32px/37px Raleway;
+    letter-spacing: 0;
+    margin: 0;
+    color: #08A6E4;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3.28px;
+}
+
+.nav__link {
+    text-decoration: none;
+    font: normal normal bold 11px/15px Open Sans;
+    color: #A5A5A5;
+    opacity: 1;
+    padding: 20px;
+
+}
+
+.nav__link:hover {
+    text-align: center;
+    font: normal normal bold 11px/15px Open Sans;
+    color: #000000;
+    opacity: 1;
+    padding: 20px;
+    border-bottom: 4px solid #08A6E4;
+}
+
+.opening__content {
+    text-align: center;
+
+
+}
+
+.opening__title {
+    font: normal normal normal 49px/57px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+
+.opening__description {
+    text-align: center;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-bottom: 38px;
+}
+
+.opening__btn {
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 16px 65px;
+    border-radius: var(--button-radius);
+    border: none;
+    background-color: #08A6E4;
+    text-decoration: none;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0;
+}
+
+.opening__background {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    opacity: 1;
+    padding-bottom: 22px;
+}
+
+.statistic {
+    text-align: center;
+}
+
+.statistic__title {
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    padding-bottom: 100px;
+}
+
+.statistic__container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.statistic__circle {
+    border: 2px solid red;
+
+}
