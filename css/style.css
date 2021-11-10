@@ -29,9 +29,7 @@ h2 {
     font-size: 2.25rem;
 }
 
-/**
- * Helpers
- */
+
 .container {
     width: 1352px;
     margin: 0 auto;
@@ -647,3 +645,5 @@ h2 {
 .footer__icons a:first-of-type {
     margin-right: 25px;
 }
+
+
