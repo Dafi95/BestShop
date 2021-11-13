@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: var(--font-open-sans);
+  font-family:$font-open-sans;
 }
 
 a {
@@ -7,7 +11,7 @@ a {
 }
 
 h2 {
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-size: 2.25rem;
 }
 
@@ -15,11 +19,16 @@ h2 {
 .container {
   width: 1352px;
   margin: 0 auto;
+
+  @include notebook {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
 
 .logo {
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-size: 2rem;
   font-weight: 300;
-  color: var(--color-primary);
+  color: $color-primary;
 }

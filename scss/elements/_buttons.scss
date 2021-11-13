@@ -1,27 +1,27 @@
-
 .btn {
   color: white;
   font-weight: bold;
   display: inline-block;
   padding: 16px 65px;
-  border-radius: var(--button-radius);
+  border-radius: $button-radius;
   border: none;
-}
 
-.btn--primary {
-  background-color: var(--color-primary);
-  border-radius: var(--button-radius);
-  box-shadow: 3px 10px 14px var(--color-primary-shadow);
-}
 
-.btn--redish {
-  background-color: var(--color-redish);
-}
+  &--primary {
+    background-color: $color-primary;
+    border-radius: $button-radius;
+    box-shadow: 3px 10px 14px $color-primary-shadow;
+  }
 
-.btn--green {
-  background-color: var(--color-green);
-}
+  &--redish {
+    background-color: $color-redish;
+  }
 
-.btn--large {
-  padding: 22px 155px;
+  &--green {
+    background-color: $color-green;
+  }
+
+  &--large {
+    padding: 22px 155px;
+  }
 }
